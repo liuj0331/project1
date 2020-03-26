@@ -1,0 +1,82 @@
+html{
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: blanchedalmond; 
+    margin:0;  
+    width: 100%;
+}
+#root{
+    width: 800px;
+    margin: auto;
+    /* position: fixed; */
+}
+
+ul{
+    background-color:whitesmoke;
+    margin: 0;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px;
+} 
+.menu > li{
+    margin:0;
+    padding:12px;
+    font-size: 14pt;
+    border-left: 1px solid wheat;
+    text-align: center;
+}
+
+#list{
+    font-family: 'Lobster', cursive;
+    font-size: 16pt;
+    margin: 0;
+    padding: 10px;
+    color: salmon;
+    
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    background-color: blanchedalmond;
+    color: lightsalmon;
+    padding:10px;
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    position: relative;
+    font-size: 12pt;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+.image{
+    /* position: relative; */
+    width: 100%;
+    align-items: 100%;
+    /* left: 25%; */
+}
+
+img{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+
+@media (max-width: 1220px){
+    #list{
+        display: block;
+        position: static;
+        width: auto;
+        font-size: 12pt;
+        margin: 0;
+        margin-top: 10px;
+    }
+}
