@@ -70,6 +70,11 @@ img{
     margin: auto;
 }
 
+#text{
+    margin:0;
+    font-size: 8pt;
+}
+
 @media (max-width: 1220px){
     #list{
         display: block;

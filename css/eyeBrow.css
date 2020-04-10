@@ -18,7 +18,7 @@ h1{
     font-family: 'Bellota', cursive;
     color: whitesmoke;
 }
- ul{
+ .menu{
     background-color:rgb(199, 154, 154);
     margin:0;
     list-style:none;
@@ -55,10 +55,32 @@ li{
     color:rebeccapurple;
 }
 
-img{
+.container {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    vertical-align: top;
+} 
+
+ #box{
+    margin:0;
+    padding: 0;
+    list-style: none;
     position: absolute;
-    left: 60%;
+    left: 55%;
     top: 200px;
     height: 400px;
+    text-align: start;
+    
 }
 
+#image{
+    height: 380px;
+    width: 80%;
+    
+}
+
+#text{
+    margin:0;
+    font-size: 8pt;
+}
