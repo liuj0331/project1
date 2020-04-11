@@ -25,7 +25,7 @@ body{
 header{
     box-sizing: border-box;
     background-color: rgb(243, 201, 207);
-    height: auto;
+    height: 600px;
 }
 h1{
     margin-top: 0;
@@ -52,9 +52,9 @@ h2{
 
 img{
     position: absolute;
-    left: 56%;
-    top: 70px;
-    height: 400px;
+    left: 57%;
+    top: 18%;
+    height:400px
 }
 ol{
     margin-left: 200px ;
