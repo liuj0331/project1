@@ -1,0 +1,17 @@
+p{
+    position: relative;
+    font-size: 12pt;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+
+#list{
+    font-family: 'Lobster', cursive;
+    font-size: 16pt;
+    margin: 0;
+    padding: 10px;
+    color: salmon;
+    
+}
